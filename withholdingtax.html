@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>withholding tax</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Withholding Tax</h1>
+            <nav>
+                <button><a href="index.html">Home</a></button>
+                <button><a href="withholdingtax.html">Withholding Tax</a></button>
+                <button><a href="payabletax.html">Payable Tax</a></button>
+                <button><a href="incometax.html">Income Tax</a></button>
+                <button><a href="SSCLtax.html">SSCL Tax</a></button>
+                <button><a href="leasingcalculations.html">Leasing Calculations</a></button>
+                <button><a href="clearfund.html">Clear Funds</a></button>
+            </nav>
+        </header>
+        <br><br>
+        
+        <div>
+            <h2>Withholding Tax</h2>
+
+        <label for="taxtype">Select the tax type : </label>
+        <select id="taxType">
+            <option value="">Select Tax Type</option>
+            <option value="rent">Rent Tax</option>
+            <option value="bank">Bank Interest Tax</option>
+            <option value="dividend">Dividened Tax</option>
+        </select>
+
+        <label for="amount">Enter Amount (Rs):</label>
+        <input type="text" id="amount" placeholder="Enter amount">
+        <div class="error" id="errorMsg"></div>
+        <br>
+        <button onclick="calculateTax()">Calculate Tax</button>
+        <br><br>
+        
+        <h2 id="result">Your Tax Is</h2>
+
+        
+        </div>
+        <script src="java.js"></script>
+    </body>
+</html>

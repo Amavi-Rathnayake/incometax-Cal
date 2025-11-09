@@ -1,0 +1,31 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkgrey;
+    text-decoration: black;
+    text-align: center;
+}
+
+header{
+    background-color: rgb(116, 124, 138);
+    color: white;
+    padding: 20px;
+    
+}
+
+button{
+    color: rgb(101, 112, 132);
+}
+
+label{
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+select{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+button{
+    color: crimson;
+}
